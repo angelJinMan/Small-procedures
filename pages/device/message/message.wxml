@@ -1,0 +1,38 @@
+<!--pages/message/message.wxml-->
+<view class='containers'>
+  <view class='message-list'>
+    <view class='message-list-item'>
+      <view class='message-l'>
+        <image class='img-box' src='../../../images/message_icon_01.png'></image>
+      </view>
+      <view class='message-r'>
+        <view class='message-date'>2019-01-08 12:34:24</view>
+        <view class='message-text'>第二阶段房租还有三天到期，请尽快缴纳</view>
+      </view>
+    </view>
+    <view class='message-list-item'>
+      <view class='message-l'>
+        <image class='img-box' src='../../../images/message_icon_02.png'></image>
+      </view>
+      <view class='message-r'>
+        <view class='message-date'>2019-01-08 12:34:24</view>
+        <view class='message-text'>
+          <text class='text1'>爸爸</text>
+          <text class='text1'>指纹开锁</text>
+        </view>
+      </view>
+    </view>
+    <view class='message-list-item'>
+      <view class='message-l'>
+        <image class='img-box' src='../../../images/message_icon_03.png'></image>
+      </view>
+      <view class='message-r'>
+        <view class='message-date'>2019-01-08 12:34:24</view>
+        <view class='message-text'>
+          <text class='text2'>低电量</text>
+          <text class='text1'>通知</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

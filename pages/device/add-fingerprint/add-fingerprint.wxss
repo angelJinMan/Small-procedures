@@ -1,0 +1,75 @@
+/* pages/device/add-fingerprint/add-fingerprint.wxss */
+/* .fingerprint-area{
+  height:890rpx;
+  background: #3298e0;
+} */
+.fingerprint-bg{
+  width:750rpx;
+  height:860rpx;
+}
+.prompt{
+  width:510rpx;
+  height:56rpx;
+  line-height: 56rpx;
+  text-align: center;
+  font-size:32rpx;
+  color: #fff;
+  position: absolute;
+  top:60rpx;
+  left:50%;
+  margin-left:-250rpx;
+}
+.set-user{
+  margin: 40rpx auto;
+}
+.group{
+  height:40rpx;
+  width:240rpx;
+   margin: 0 auto;
+}
+.label-1-text{
+  font-size: 28rpx;
+  color: #646464;
+
+}
+.addBtn{
+  font-size:32rpx;
+  width:265rpx;
+  height:62rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #fff;
+  background: #38acff;
+  border-radius: 30rpx;
+  margin: 54rpx auto;
+}
+/* .setIntimidation_switch {
+  padding-top:6px;
+  padding-bottom:6px;
+
+}
+.setIntimidation {
+  width:94%;
+  padding:10px 15px;
+  position:absolute;
+  bottom: 80rpx;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  align-items:center;
+  font-size: 24rpx;
+}
+.setIntimidation-bd {
+  -webkit-box-flex:1;
+  -webkit-flex:1;
+  flex:1;
+}
+.setIntimidation-ft {
+  text-align:right;
+  color:#999999;
+} */
+
+
+
+
+

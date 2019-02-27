@@ -1,0 +1,35 @@
+<!--pages/device/member/menber.wxml-->
+<view class='members'>
+  <view class='member-list'>
+    <view class='member-box' bindtap='showMemberDetail'>
+      <image class='member_bg' src='../../../images/member_bg.png'></image>
+      <view class='member-content'>
+        <image class='member-image' src='../../../images/member_icon.png'></image>
+        <view class='member-words'>
+          <view class='member-word'>孙娇娇</view>
+          <view class='member-word'>18910055809</view>
+        </view>
+        <view class='mores'>...</view>
+      </view>
+      <!-- <view class='navigator-arrow'></view> -->
+    </view>
+    <view class='member-box'>
+      <image class='member_bg' src='../../../images/member_bg.png'></image>
+      <view class='member-content'>
+        <image class='member-image' src='../../../images/member_icon.png'></image>
+        <view class='member-words'>
+          <view class='member-word'>妈妈</view>
+          <view class='member-word'>18910055809</view>
+        </view>
+        <view class='mores'>...</view>
+      </view>
+      <!-- <view class='navigator-arrow'></view> -->
+    </view>
+  </view>
+  <!-- <view class='add-members' bindtap='addMember'>增加新成员</view> -->
+  <view class='add-box' bindtap='addMember'>
+    <image class='member_bg' src='../../../images/member_bg.png'></image>
+    <view class='add-member'>+</view>
+  </view>
+</view>
+

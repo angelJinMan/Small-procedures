@@ -1,0 +1,10 @@
+<!--pages/device/add-cord/add-cord.wxml-->
+<view class='containers'>
+  <view class='cord-area'>
+    <image class='card-bg' src='../../../images/addCard_02.png'></image>
+    <view class='prompt'>请手持门卡，将其靠近门锁，进行录入</view>
+  </view>
+  <view class='set-box'>
+    <view class='addBtn' bindtap='createBLEConnection'>开始添加</view>
+  </view>
+</view>

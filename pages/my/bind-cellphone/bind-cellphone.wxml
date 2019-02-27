@@ -1,0 +1,9 @@
+<!--pages/my/bind-cellphone/bind-cellphone.wxml-->
+<view>
+  <view class='bind-phone' bindtap='showBinDetails'>
+    <view class='bind-phone-text'>绑定手机号</view>
+    <view class='phone-number'></view>
+    <view class='phone-arrow'></view>
+  </view>
+</view>
+

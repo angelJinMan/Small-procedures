@@ -1,0 +1,20 @@
+<!--pages/device/add-fingerprint/add-fingerprint.wxml-->
+<view class='containers'>
+  <view class='fingerprint-area'>
+    <image class='fingerprint-bg' src='../../../images/addFinger_02.png'></image>
+    <view class='prompt'>请选择舒适的握姿与手指按压力度</view>
+  </view>
+  <view class='set-box'>
+    <view class='set-user'>
+      <checkbox-group class="group">
+        <view class="label-1">
+          <label>
+            <checkbox></checkbox>
+            <text class="label-1-text">设为胁迫用户</text>
+          </label>
+        </view>
+      </checkbox-group>
+    </view>
+    <view class='addBtn' bindtap='createBLEConnection'>开始添加</view>
+  </view> 
+</view>

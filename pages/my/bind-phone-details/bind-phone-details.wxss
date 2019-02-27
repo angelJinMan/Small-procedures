@@ -1,0 +1,32 @@
+/* pages/my/bind-phone-details/bind-phone-details.wxss */
+.number-box{
+  height:90rpx;
+  line-height: 90rpx;
+  font-size:28rpx;
+  display:flex;
+  border-top: 1rpx solid #ddd;
+  border-bottom: 1rpx solid #ddd;
+  margin-top:10rpx;
+  padding:0 0 0 20rpx;
+}
+.number-text{
+  height:90rpx;
+  line-height: 90rpx;
+}
+.input-number{
+  display: inline-block;
+  height:90rpx;
+  line-height: 90rpx;
+  margin-left:20rpx;
+}
+.save-btn{
+  width:300rpx;
+  height:70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  font-size:28rpx;
+  background: #0730a1;
+  color: #fff;
+  border-radius: 10rpx;
+  margin: 40rpx auto;
+}

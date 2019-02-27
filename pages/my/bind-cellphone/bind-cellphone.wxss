@@ -1,0 +1,32 @@
+/* pages/my/bind-cellphone/bind-cellphone.wxss */
+.bind-phone{
+  height:80rpx;
+  line-height: 80rpx;
+  font-size:24rpx;
+  display:flex;
+  border-top: 1rpx solid #ddd;
+  border-bottom: 1rpx solid #ddd;
+  margin-top:10rpx;
+  padding:0 0 0 20rpx;
+}
+.bind-phone-text{
+  flex:1;
+}
+.phone-arrow {
+  padding-right:26rpx;
+  position:relative;
+}
+.phone-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 28rpx;
+}

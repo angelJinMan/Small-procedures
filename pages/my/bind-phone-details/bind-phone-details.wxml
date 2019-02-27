@@ -1,0 +1,8 @@
+
+<view>
+  <view class='number-box'>
+    <text class='number-text'>绑定手机</text>
+    <input type="number" pattern="\d*" class='input-number'></input>
+  </view>
+  <view class='save-btn'>保存</view>
+</view>
